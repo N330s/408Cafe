@@ -1,7 +1,7 @@
-export default function Members( {params : string}) {
+export default function Members( {params}) {
     return (
         <div>
-            member : {params.name[0]}
+            member : {params.name}
         </div>
     )
 }
